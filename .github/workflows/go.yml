@@ -19,7 +19,7 @@ jobs:
       run: ls -la
 
     - name: Build
-      run: go build -v  ..\..\mygo.go
+      run: go build -v  mygo.go
     
     - name: Test
-      run: go test -v  ..\..\mygo.go
+      run: go test -v  mygo.go
