@@ -15,6 +15,9 @@ jobs:
       with:
         go-version: '1.21.5'
 
+    - name: Check
+      run: ls -la
+
     - name: Build
       run: go build -v  ..\..\mygo.go
     
